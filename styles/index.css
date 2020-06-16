@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+    background-color: rgb(255, 248, 215);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+#form_register {
+    font-size: 20px;
+    background-color: rgb(230, 248, 225);
+    border:2px solid rgb(241, 135, 36);
+    padding:5px;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 rgb(201, 97, 0), 0 1px rgb(201, 97, 0), 1px 0 rgb(201, 97, 0), 0 -1px rgb(201, 97, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#form_connexion {
+    font-size: 20px;
+    background-color: rgb(230, 248, 225);
+    border:2px solid rgb(241, 135, 36);
+    padding:5px;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 rgb(201, 97, 0), 0 1px rgb(201, 97, 0), 1px 0 rgb(201, 97, 0), 0 -1px rgb(201, 97, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+label {
+    display:block;
+}
+
+label.inline {
+    display:inline;
+    margin-right:50px;
+}
+
+input, select {
+    padding:3px;
+    border:2px solid rgb(243, 144, 52);
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+}
+
+.fieldset_name input, .fieldset_gender select, .fieldset_mail input {
+    width: 250px;
+}
+
+input[type=radio] {
+    background-color: #FFFFFF;
+    border:none;
+    width:10px;
+    cursor: pointer;
+}
+
+#button_subscribe, #button_reset {
+    width:100px;
+    padding: 10px;
+    margin-left:5px;
+    box-shadow:1px 1px 1px rgb(243, 144, 52);
+    background-color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#info_messages {
+    padding: 20px 0;
+    margin: 20px 0;
+    background-color: rgb(230, 248, 225);
+    border: solid 2px rgb(243, 144, 52);
+    width: 500px;
+}
+
+.section_title {
+    color: rgb(250, 196, 81);
+    text-shadow: -3px 0 rgb(201, 97, 0), 0 3px rgb(201, 97, 0), 3px 0 rgb(201, 97, 0), 0 -3px rgb(201, 97, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_title h1 {
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+.section_title h2 {
+    font-size: 30px;
+}
+
+.fieldset_hobbies {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+.fieldset_validation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.fieldset_validation a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 rgb(201, 97, 0), 0 1px rgb(201, 97, 0), 1px 0 rgb(201, 97, 0), 0 -1px rgb(201, 97, 0);
+    font-size: 25px;
+}
+
+.fieldset_validation a:hover, input[type=submit]:hover, input[type=reset]:hover {
+    text-decoration: none;
+    color: rgb(255, 210, 114);
+    text-shadow: -1px 0 rgb(201, 97, 0), 0 1px rgb(201, 97, 0), 1px 0 rgb(201, 97, 0), 0 -1px rgb(201, 97, 0);
+}
+
+input:focus {
+    background-color: rgb(241, 157, 78);
+}
+
+.fieldset_validation a:hover {
+    font-size: 25px;
+}
+
+#wrapper_index {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../assets/image.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+.header_title {
+    font-size: 20px;
+    color: rgb(255, 210, 114);
+    text-shadow: -2px 0 rgb(189, 91, 0), 0 2px rgb(189, 91, 0), 2px 0 rgb(189, 91, 0), 0 -2px rgb(189, 91, 0);
+}
+
+.label_info, form p {
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(248, 185, 47);
+    text-shadow: -1px 0 rgb(187, 90, 0), 0 1px rgb(187, 90, 0), 1px 0 rgb(187, 90, 0), 0 -1px rgb(187, 90, 0);
+}
+
+#wrapper_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    background-image: url(../assets/image.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+.label_check {
+    margin-left: 20px;
+}
+
+#footer {
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+    margin-top: auto;
+}
+
+.section_title_home {
+    margin-left: 100px;
+    font-size: 20px;
+    color: rgb(250, 196, 81);
+    text-shadow: -1px 0 rgb(189, 91, 0), 0 1px rgb(189, 91, 0), 1px 0 rgb(189, 91, 0), 0 -1px rgb(189, 91, 0);
+}
+
+#email_error, #hobbies_error {
+    color: rgb(228, 51, 51);
+    margin-top: 10px;
+}

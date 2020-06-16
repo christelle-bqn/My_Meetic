@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(230, 248, 225);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.wrapper_header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 248, 215);
+    padding: 20px 0 25px 0;
+}
+
+.section_title {
+    font-family: 'Anton', sans-serif;
+    margin-left: 50px;
+    color: rgb(250, 196, 81);
+    text-shadow: -1px 0 rgb(189, 91, 0), 0 1px rgb(189, 91, 0), 1px 0 rgb(189, 91, 0), 0 -1px rgb(189, 91, 0);
+}
+
+.section_title h1 {
+    font-size: 30px;
+}
+
+.section_title h2 {
+    font-size: 15px;
+}
+
+#wrapper_home, #wrapper_search {
+    background-color: #FFFFFF;
+    border: 2px solid rgb(250, 196, 81);
+    border-radius: 10px;
+}
+
+#wrapper_search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form_search_members {
+    margin: 20px 0 40px 0;
+}
+
+.menu, .menu a, .menu ul {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    line-height: 2em;
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(250, 196, 81);
+    background-color: rgb(230, 248, 225);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    background-color: #FFFFFF;
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.menu ul {
+    line-height: 1.7em;
+    position: absolute;
+    display: none;
+}
+
+.info_member {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid rgb(250, 196, 81);
+    padding: 20px 0 20px 0;
+}
+
+#footer {
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+    margin-top: 110px;
+}
+
+.account_title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.account_subtitle {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#section_all {
+    background-color: rgb(255, 248, 215);
+    margin: 0px 100px 0 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section_logout {
+    padding: 30px 0 30px 30px;
+}
+
+input {
+    padding:3px;
+    border:2px solid rgb(243, 144, 52);
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+}
+
+input:focus {
+    background-color: rgb(241, 157, 78);
+}
+
+input[type=submit], input[type=reset], input[type=button] {
+    background-color: rgb(230, 248, 225);
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    text-decoration: none;
+    color: rgb(255, 210, 114);
+    text-shadow: -1px 0 rgb(201, 97, 0), 0 1px rgb(201, 97, 0), 1px 0 rgb(201, 97, 0), 0 -1px rgb(201, 97, 0);
+}
+
+#new_password {
+    margin-top: 20px;
+}
+
+#button_add_hobby, #button_modify_password, #button_modify_email {
+    margin-top: 10px;
+}
+
+#info_messages {
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: rgb(230, 248, 225);
+    border: solid 2px rgb(243, 144, 52);
+    width: 500px;
+}
+
+#email_error {
+    color: rgb(228, 51, 51);
+    margin-top: 10px;
+}
+
+input, select {
+    padding:3px;
+    border:2px solid rgb(243, 144, 52);
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+}
+
+.label_info, form p  {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#button_search {
+    width:100px;
+    padding: 10px;
+    margin-left:5px;
+    box-shadow:1px 1px 1px rgb(243, 144, 52);
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 15px;
+}
